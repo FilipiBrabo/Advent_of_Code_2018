@@ -13,9 +13,7 @@ int main() {
 	int count_two   = 0;
 	int count_three = 0;
 	int checksum    = 0;
-	
-	
-	
+		
 	while (cin >> id) {
 		found_two   = false;
 		found_three = false;
