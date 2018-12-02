@@ -31,14 +31,11 @@ int main() {
 			}
 		}
 		
-		if (found_three && found_two) {
+		if (found_two)
 			count_two++;
+		if(found_three)
 			count_three++;
-		} else if (found_three && !found_two) {
-			count_three++;
-		} else if (!found_three && found_two){
-			count_two++;
-		}
+		
 		map_char.clear();
 	}
 	
